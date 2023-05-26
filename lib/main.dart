@@ -14,6 +14,8 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
+  get date => null;
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -130,11 +132,10 @@ class _MyAppState extends State<MyApp> {
           ),
           //AppBar
           body: Column(
+            // ignore: prefer_const_literals_to_create_immutables
             children: [
-              const SizedBox(height: 25),
-              CustomCard(
-                text: 'Informações importantes',
-              ), // Espaçamento para separar o componente da AppBar
+              const SizedBox(height: 45),
+              const CustomCard(), // Espaçamento para separar o componente da AppBar
             ],
           ) //Center
           ), //Scaffold
