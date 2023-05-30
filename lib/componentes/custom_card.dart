@@ -6,8 +6,8 @@ class CustomCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: const EdgeInsets.fromLTRB(550, 0, 350, 0),
-      width: 700,
+      margin: const EdgeInsets.fromLTRB(450, 0, 450, 0),
+      width: 1500,
       height: 60,
       decoration: BoxDecoration(
         color: Colors.white,
@@ -77,7 +77,7 @@ class CustomCard extends StatelessWidget {
           ),
           Expanded(
             child: Container(
-              padding: const EdgeInsets.symmetric(horizontal: 8),
+              padding: const EdgeInsets.fromLTRB(0, 0, 0, 0),
               decoration: const BoxDecoration(
                 border: Border(
                   right: BorderSide(
