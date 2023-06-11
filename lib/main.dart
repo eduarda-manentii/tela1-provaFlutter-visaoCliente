@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tela1_prova/componentes/middle_buttons.dart';
 import 'componentes/custom_card.dart';
-import 'componentes/custom_rodape.dart';
 import 'componentes/newsletter.dart';
 
 void main() {
@@ -142,7 +141,7 @@ class _MyAppState extends State<MyApp> {
           children: [
             Expanded(
               child: Padding(
-                padding: const EdgeInsets.fromLTRB(0, 80, 0, 10),
+                padding: const EdgeInsets.fromLTRB(0, 80, 0, 0),
                 child: RichText(
                   text: TextSpan(
                     style: DefaultTextStyle.of(context).style,
@@ -169,7 +168,6 @@ class _MyAppState extends State<MyApp> {
             ),
             const CustomCard(),
             const MiddleButons(),
-            const FooterComponent(),
           ],
         ),
         //Center
